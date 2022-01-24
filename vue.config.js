@@ -1,10 +1,10 @@
 module.exports = {
-
+  devServer:{
+    open:true
+  },
   css: {
-    modules: false,
+    requireModuleExtension:false,
     loaderOptions: {
-      sass: {
-      },
       less: {
         lessOptions: {
           javascriptEnabled: true,
