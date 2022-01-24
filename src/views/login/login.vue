@@ -31,7 +31,7 @@ export default {
     }
   },
   created() {
-    console.log(process.env,'123')
+    console.log(process.env,'123456')
   },
   mounted() {
     history.pushState(null, null, document.URL);
